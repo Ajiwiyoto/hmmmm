@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Untuk Kamu</title>
+    <!--Fav Icon-->
+    <link rel="shorcut icon" href="image/love.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        background: linear-gradient(to right, #ff9a9e, #fad0c4);
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        color: #333;
+      }
+      .card {
+        background-color: white;
+        padding: 40px;
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        max-width: 500px;
+      }
+      #play-button {
+        background-color: #ff6f91;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 18px;
+        transition: background-color 0.3s ease;
+      }
+      #play-button:hover {
+        background-color: #ff8a9e;
+      }
+
+      #play-button:active {
+        background-color: #ff5c71;
+      }
+      h1 {
+        color: #ff6f91;
+      }
+      p {
+        font-size: 18px;
+      }
+      .heart {
+        font-size: 48px;
+        color: red;
+        animation: beat 1s infinite;
+      }
+      @keyframes beat {
+        0%,
+        100% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.2);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="heart">❤</div>
+      <h1>Hai Intan</h1>
+      <p>
+        Cieee udah jadian-yaaa🤭. makasih-yaa udah mau nerima akuu hehee, ga
+        nyangka sih bisa dapetin kamu setelah berusaha yakinin. berapa bulan ya?
+        2 apa 3 bulan? atau 4? aku lupaa hehee^^, gakpa yang penting aku udahh
+        dapet kamuu HAHAHAYY. gilaa effort ga aku bikin web gini walaupun bukan
+        sepenuhnya hasil tanganku sih soalnya masih dibantu AI buat beberapa
+        prompt,TAPI proud of mee lahh bisa bikin ginian bangga ga? bangga ga??
+        harus banggalahh😼. mungkin segitu aja sihh aku gatauu mau ngetik apa
+        lagii heheee, INTINYAAA MAKASIH UDAH NERIMA AKU DAN AKU HARAP KITA BISA
+        BERTAHAN LAMA walaupun belum tentu akan bisa?? but i wishh😸. okee
+        segitu ajaa babaiiiii
+      </p>
+      <p><strong>I LOVE U SO MUCH💕</strong></p>
+      <button id="play-button">Coba pencet</button>
+      <audio id="audio" src="audio/bergema.mp3"></audio>
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
